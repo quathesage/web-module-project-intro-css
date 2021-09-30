@@ -74,8 +74,6 @@ legend {
 * {
   border: 1px solid grey;
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
   max-width: 100%;
   font-family: "Roboto Mono", monospace;
 }
@@ -95,6 +93,8 @@ h1 {
 }
 section {
   padding: 4% 0;
+  margin: 0 auto;
+  width: 90%;
 }
 a {
   text-decoration: none;
@@ -157,18 +157,22 @@ nav a {
   padding: 3%;
 }
 
-.firelog,
-.firelogImg {
-  padding: 10%;
-  margin: 0 15%;
-  border: 1px solid grey;
-  text-align: center;
+.firelog {
+  width: 30%;
+  margin: 0 auto;
 }
-.firelogImg {
-  margin-right: 25%;
+.truck {
+  margin: 0 auto;
+  width: 30%;
 }
-
-.rvicon {
-  text-align: center;
-  display: inline-block;
+span {
+  font-weight: bold;
+}
+.mountain {
+  background-image: url("assets/footer_img.jpg");
+  height: 50vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
 }
